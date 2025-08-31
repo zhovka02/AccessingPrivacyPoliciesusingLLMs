@@ -1,6 +1,7 @@
 # Accessing Privacy Policies using LLMs 
 
 Framework for evaluating Large Language Models on the **C3PA dataset** of privacy policy annotations (CCPA/CPRA).
+Includes a **modified version of C3PA** with filtered and context-enriched spans for more reliable evaluation.
 
 ## Features
 - Preprocessing and span filtering
