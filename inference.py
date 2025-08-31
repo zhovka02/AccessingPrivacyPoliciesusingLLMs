@@ -104,7 +104,6 @@ def run_inference(models: List[str], n_policies: int = 20) -> Dict[str, List[Dic
     )
 
     logging.info(f"Loading {n_policies} policies...")
-    print("dd")
     data = load_policies(n_policies, random_seed=12, with_context=False, use_ready_data=True)
     logging.info("Data loaded. Starting threads for models: " + ", ".join(models))
 
