@@ -15,7 +15,7 @@ import pandas as pd
 from difflib import SequenceMatcher
 
 # Configuration
-DATA_ROOT = "/Users/aleksey/PycharmProjects/AccessingPPusingLLM/C3PA_Dataset-main"
+DATA_ROOT = "/Users/aleksey/PycharmProjects/AccessingPPusingLLM/C3PA_Dataset"
 ANNOT_DIR = os.path.join(DATA_ROOT, "Annotations/DB")
 FILTERED_DIR = os.path.join(DATA_ROOT, "Filtered/DB")
 THRESHOLD = 0.75  # similarity threshold

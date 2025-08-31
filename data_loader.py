@@ -30,7 +30,7 @@ from nltk.tokenize import sent_tokenize
 from bs4 import BeautifulSoup
 
 
-DATA_ROOT = "/Users/aleksey/PycharmProjects/AccessingPPusingLLM/C3PA_Dataset-main"
+DATA_ROOT = "/Users/aleksey/PycharmProjects/AccessingPPusingLLM/C3PA_Dataset"
 
 
 def extract_visible_text_from_html(html: str) -> str:
